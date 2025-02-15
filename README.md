@@ -1,2 +1,2 @@
 # Data-structure
-implementation Data structure in c++
+implementation Data structure using c++
