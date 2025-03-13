@@ -66,7 +66,7 @@ public:
             tail->next = node;
             tail = node;
         }
-        length++; // تحديث الطول
+        length++; 
     }
 
     // It returns a pointer to the node (Node*) located at position n
@@ -94,10 +94,10 @@ public:
             if (i->data == val)
                 return indx;
         }
-        return -1; // يجب أن يكون خارج الحلقة
+        return -1; 
     }
 
-    // تحسين البحث بنقل العنصر للأمام عند العثور عليه
+    //Improve search by moving the item forward when found
     int search_improve(int val)
     {
         int indx = 0;
